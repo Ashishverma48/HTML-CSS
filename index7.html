@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            /* background-color: rgb(205, 237, 233); */
+        }
+
+        nav{
+            background-color: teal;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 30px;
+            gap: 20px
+        }
+        .nav-div{
+            display: flex;
+            gap: 15px;
+        }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+           align-items: center;
+            background-color: rgb(216, 211, 211);
+            padding: 10px;
+            margin-top: 30px
+        }
+
+        img{
+            width: 80px;
+            height: 120px;
+            border-radius: 10px;
+        }
+
+        .img-div{
+            display: flex;
+                flex-direction: column;  
+                gap: 5px;
+                background-color: rgb(112, 152, 227);
+                align-items: center;
+                padding: 10px;
+                border-radius: 10px;
+                width: 130px;
+        }
+
+        .img-div:hover{
+            background-color: rgb(100, 236, 168);
+        }
+
+        .img-group{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            border: 1px solid #9e9c9c;
+            padding: 20px;
+            border-radius: 10px;
+            /* background-color: rgb(240, 236, 230); */
+        }
+
+        footer{
+            background-color: black;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 30px;
+        }
+
+        .footer-left{
+            display: flex;
+            flex-direction: column;;
+            gap: 10px
+        }
+
+        .social-media{
+            display: flex;
+            gap: 10px
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <p>Home</p>
+           <div class="nav-div">
+            <p>Contact</p>
+            <p>About</p>
+            <p>Help</p>
+            <p>Services</p>
+           </div>
+        </nav>
+        <section>
+            <h2>Students</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis, eum pariatur aliquid possimus dolores. Pariatur veniam, velit porro sequi saepe quisquam quia delectus nostur delectus quod sit!
+            </p>
+
+          <div class="img-group">
+              <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Rahul Mehta</h3>
+            <h4>xyz@gmail.com</h4>
+            <h4>9999999999</h4>
+            </div>
+
+            <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Akshay Kumar</h3>
+            <h4>abc@gmail.com</h4>
+            <h4>1111111</h4>
+            </div>
+
+            <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Sagar Patel</h3>
+            <h4>abc@gmail.com</h4>
+            <h4>1111111</h4>
+            </div>
+          </div>
+        </section>
+        <section>
+            <h2>Trainers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis, eum pariatur aliquid possimus dolores. Pariatur veniam, velit porro sequi saepe quisquam quia delectus nostur delectus quod sit!
+            </p>
+
+          <div class="img-group">
+              <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Rahul Mehta</h3>
+            <h4>xyz@gmail.com</h4>
+            <h4>9999999999</h4>
+            </div>
+
+            <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Akshay Kumar</h3>
+            <h4>abc@gmail.com</h4>
+            <h4>1111111</h4>
+            </div>
+
+            <div class="img-div">
+            <img src="./st.jpg" alt="">
+            <h3>Sagar Patel</h3>
+            <h4>abc@gmail.com</h4>
+            <h4>1111111</h4>
+            </div>
+          </div>
+        </section>
+    
+        <footer>
+            <div class="footer-left">
+                <p>Adress</p>
+                <p>Email: abc@gmail.com</p>
+                <p>Phone: 9999999</p>
+            </div>
+            <div class="footer-left">
+               <div  class="social-media">
+                <i class="fa-brands fa-instagram"></i>
+               <p>Insta</p>
+               </div>
+               <div  class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+               <p>Fb</p>
+               </div >
+               <div class="social-media">
+                <i class="fa-brands fa-twitter"></i>
+               <p>Twitter</p>
+               </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/a55cf239a3.js" crossorigin="anonymous"></script>
