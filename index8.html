@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        main{
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit, 200px); */
+
+        
+
+            grid-template-areas: 
+            "a a a"
+            "b b c"
+            "d d d"
+            "e f f"
+            "g h i"
+            "j k l"
+            ;
+
+            gap: 20px;
+            /* justify-content: space-between; */
+            justify-content: center;
+        }
+
+        div{
+            height: 100px;
+            width: 100%;
+            min-width: 150px;
+        }
+
+
+        #a{
+            background-color: aqua;
+            grid-area: a;
+          
+        }
+        #b{
+            background-color:bisque;
+            grid-area: b;
+        }
+        #c{
+            background-color:blueviolet ;
+            grid-area: c;
+        }
+        #d{
+            background-color:yellowgreen ;
+            grid-area: d;
+        }
+        #e{
+            background-color:yellow ;
+            grid-area: e;
+        }
+        #f{
+            background-color: red ;
+            grid-area: f;
+        }
+        #g{
+            background-color:tomato ;
+            grid-area: g;
+        }
+     
+        #h{
+            background-color:skyblue ;
+            grid-area: h;
+        }
+        #i{
+            background-color:darkslategray ;
+            grid-area: i;
+        }
+        #j{
+            background-color:red ;
+            grid-area: j;
+        }
+        #k{
+            background-color:navy ;
+            grid-area: k;
+        }
+        #l{
+            background-color:magenta ;
+            grid-area: l;
+        }
+        
+      
+    </style>
+
+</head>
+<body>
+    <main>
+        <div id = 'a'> <h1> 1 </h1></div>
+        <div id = 'b'> <h1> 2 </h1></div>
+        <div id = 'c'> <h1> 3 </h1></div>
+        <div id = 'd'> <h1> 4 </h1></div>
+        <div id = 'e'> <h1> 5 </h1></div>
+        <div id = 'f'> <h1> 6 </h1></div>
+        <div id = 'g'> <h1> 7 </h1></div>
+        <div id = 'h'> <h1> 8 </h1></div>
+        <div id = 'i'> <h1> 9 </h1> </div>
+        <div id = 'j'> <h1> 10</h1> </div>
+        <div id = 'k'> <h1> 11</h1> </div>
+        <div id = 'l'> <h1> 12</h1> </div>
+    </main>
+</body>
+</html>
