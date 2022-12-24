@@ -1,0 +1,272 @@
+
+.header{
+    background-image: url(./imgs/header.jpg);
+    border: 1px solid red;
+    height: 100%;
+
+    background-size: cover;
+    height: 50vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+.intro{
+
+    position:absolute;
+    color: white;
+    top: 30%;
+    left: 10%;
+    font-size: xx-large;
+    line-height: 80px;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.home:hover{
+    color: red;
+    
+}
+.container{
+    border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 30px;
+    padding: 20px;
+   
+    
+}
+.about{
+    display: flex;
+     height:400px;
+    width: 300px; 
+    /* background-color: aqua; */
+    flex-direction: column;
+    border:1px solid;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+    gap: 50px;
+    
+}
+.about:hover{
+    box-shadow: 2px 3px 20px red;
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+button{
+    width:170px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 17px;
+    color: red;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:red;
+    color: white;
+    box-shadow: 2px 2px 20px rgb(4, 202, 0);
+}
+.expr{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+.main-r{
+    border: 1px solid;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    
+    
+}
+.resume{
+    border: 1px solid;
+    height: 510px;
+    width: 300px;
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.resume:hover{
+    box-shadow: 2px 3px 20px red;
+}
+.up{
+    height: 60%;
+   padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.down{
+    height: 35%;
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mskill{
+    background-color: rgb(175, 175, 11);
+    border-radius: 10px;
+    text-align: center;
+    height: 5px;
+  
+    
+}
+.skill-1{
+    width: 90%;
+    background-color: red;
+    height: 100%;
+
+}
+.skill-2{
+    width: 87%;
+    background-color: red;
+    height: 100%;
+}
+.skill-3{
+    background-color: red;
+    width: 79%;
+    height: 100%;
+}
+.skill-4{
+    background-color: red;
+    width: 70%;
+    height: 100%;
+}
+.skill-5{
+    background-color: red;
+    width: 75%;
+    height: 100%;
+}
+.skill-6{
+    background-color: red;
+    width: 80%;
+    height: 100%;
+}
+
+
+span{
+    color: red;
+    font-size: 22px;
+}
+.prinfo{
+    color:red;
+    font-size: 19px;
+}
+
+.lng-main{
+    
+    background-color: aqua;
+    height: 6px;
+    border-radius: 10px;
+    
+    
+}
+.lng1{
+    width: 75%;
+    background-color:red;
+    border-radius: 10px;
+    height: 100%;
+}
+.lng2{
+    width: 95%;
+    background-color: red;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.fmain{
+    background-color: rgb(34, 34, 60);
+    padding: 20px;
+}
+.fdiv{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.inqr{
+    border: 1px solid red;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    line-height: 20px;
+
+    
+}
+.inqr1{
+    height: 80%;
+
+    width: 55%;
+    padding: 30px;
+    text-align: center;
+
+
+}
+.inqr2{
+    height: 80%;
+    
+    width: 30%;
+    margin-left: 30px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    border-left: 1px solid;
+
+}
+input[type="text"],
+input[type="email"]
+{
+    width: 85%;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: red;
+    
+
+}
+textarea{
+    width: 85%;
+    height: 140px;
+    border-color: red;
+}
+#formbutton{
+    width: 85%;
+}
+.intouch{
+  
+    line-height: 23px;
+    padding: 5px 10px 5px 30px;
+
+}
+
+
