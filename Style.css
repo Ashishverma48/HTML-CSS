@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    padding: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    margin:auto
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.right{
+    display: flex;
+    gap: 20px;
+   
+    padding: 10px;
+    margin: auto;
+
+}
+#ecm{
+    font-size: 10px;
+}
+#sign-in{
+    width: 100px;
+    height: 32px;
+    color: blue;
+    
+}
+input{
+    border: none;
+   
+}
+input::placeholder{
+    color: black;
+}
+#log-in{
+    margin: auto;
+}
+#slogan{
+    text-align: center;
+    padding: 0px 150px;
+    margin-top: 10px;
+}
+#webcreate{
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 3px;
+    width: 20%;
+    background-color: rgb(33, 33, 112);
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 30px;
+}
+.about{
+   
+    text-align: center;
+    
+}
+#get{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+#get-start{
+    padding: 8px 20px;
+    background-color:rgb(33,33,112);
+    color: white;
+    border-radius: 3px;
+    
+}
+.temp{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+#left{
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+#middle{
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+#right{
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.up{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 20px;
+    
+
+}
+.down{
+    height: 10%;
+    width: 98%;
+    color: white;
+    text-align: center;
+    padding: 6px 2px 4px 2px;
+}
+#first{
+    background-color: rgb(26, 167, 120);
+}
+#second{
+    background-color: rgb(227, 48, 12);
+}
+#third{
+    background-color: rgb(188, 16, 68);
+}
+img{
+height: 100px;
+justify-content: center;
+}
+.rs1{
+    color:rgb(26,167,120);
+}
+.rs2{
+    color: rgb(227,48,12);
+}
+.rs3{
+    color: rgb(188,16,68);
+}
+#p{
+    font-size: 12px;
+    padding: 0px 20px;
+}
