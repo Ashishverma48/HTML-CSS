@@ -1,272 +1,242 @@
-
-.header{
-    background-image: url(./imgs/header.jpg);
-    border: 1px solid red;
-    height: 100%;
-
-    background-size: cover;
-    height: 50vh;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif
 }
-.intro{
-
-    position:absolute;
-    color: white;
-    top: 30%;
-    left: 10%;
-    font-size: xx-large;
-    line-height: 80px;
-}
-
-.nav{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    background-attachment: fixed;
-    flex-wrap: wrap;
-    padding: 15px 30px;
-    font-size: 22px;
-    cursor: pointer;
-}
-.home:hover{
-    color: red;
-    
-}
-.container{
-    border:1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    margin-top: 30px;
-    padding: 20px;
+header{
+    background-image: url(./image/bg\ img.png);
+    background-size:contain;
+    height: 450px;
+    min-width: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
    
     
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.login-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+#mail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.login-right{
+    display: flex;
+    gap: 
+    30px;
+}
+#add{
+    display: flex;
+    gap: 10px;
+}
+#icon{
+    display: flex;
+    gap: 10px;
+    
+}
+i:hover{
+    color: red;
+    cursor: pointer;
+}
+#login{
+    display: flex;
+    gap: 10px;
+    
+}
+i{
+    color: rgba(3, 0, 0, 0.628);
+}
+select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+option{
+    height: 19px;
+    background-color: transparent;
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-middle{
+    display: flex;
+}
+.nav-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+}
+.ad{
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    line-height: 50px;
+    margin-top: 3px;
+}
+#dec{
+    color: blueviolet;
+    font-size: 25px;
+}
+#ad1{
+    font-family:vivaldi;
+    font-size: 40px;
+    color: rgb(114, 11, 37);
+}
+#enq{
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    width: 130px;
+    background-color: rgba(137, 54, 214, 0.9);
+    color: white;
+    margin-top: 30px;
+}
+#enq:hover{
+    background-color: rgba(137, 43, 226, 0.655);
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ser{
+    width: 21%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+#ser{
+    text-align: center;
+    padding: 10px;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.enqire{
+    background-color:rgba(114, 11, 37, 0.895);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+.ser:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#ab-img{
+    width: 95%;
+    height: 80vh;
 }
 .about{
     display: flex;
-     height:400px;
-    width: 300px; 
-    /* background-color: aqua; */
     flex-direction: column;
-    border:1px solid;
-    padding: 20px;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    
-    gap: 50px;
-    
-}
-.about:hover{
-    box-shadow: 2px 3px 20px red;
-}
-li{
-    list-style: none;
-    padding-bottom: 10px;
-}
-button{
-    width:170px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid red;
-    font-size: 17px;
-    color: red;
-    border-radius: 10px;
-}
-button:hover{
-    background-color:red;
-    color: white;
-    box-shadow: 2px 2px 20px rgb(4, 202, 0);
-}
-.expr{
-   
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 10px;
-    
-}
-.main-r{
-    border: 1px solid;
+    gap: 30px;
     margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+#ab-details{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.705);
+    line-height: 30px
+}
+h2{
+    font-size: 40px;
+    font-family: gabriola;
+    color: brown;
+    text-align: center;
+    
+}
+section{
+    margin-top: 30px;
+}
+#gallary{
     display: flex;
     justify-content: space-around;
-
-    
-    
 }
-.resume{
-    border: 1px solid;
-    height: 510px;
-    width: 300px;
-    display: flex;
-    margin: 40px;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
+.gal-img{
+    width: 350px;
+    height: 210px;
     border-radius: 10px;
 }
-.resume:hover{
-    box-shadow: 2px 3px 20px red;
+.gal{
+    margin-top: 30px;
 }
-.up{
-    height: 60%;
-   padding: 20px;
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
 }
-.down{
-    height: 35%;
-    
-    padding: 15px;
+.f-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.f-right{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+   
+}
+footer{
+    margin-top: 40px;
+   
+}
+.right-up{
+   align-items: flex-end;
+    display: flex;
+   gap: 10px;
+    flex-direction: column;
+
+}
+.right-down{
+
+}
+
+#lang{
+    display: flex;
+    background-color: rgb(212, 94, 15);
+    padding: 10px;
     gap: 20px;
-}
-.mskill{
-    background-color: rgb(175, 175, 11);
-    border-radius: 10px;
-    text-align: center;
-    height: 5px;
-  
-    
-}
-.skill-1{
-    width: 90%;
-    background-color: red;
-    height: 100%;
-
-}
-.skill-2{
-    width: 87%;
-    background-color: red;
-    height: 100%;
-}
-.skill-3{
-    background-color: red;
-    width: 79%;
-    height: 100%;
-}
-.skill-4{
-    background-color: red;
-    width: 70%;
-    height: 100%;
-}
-.skill-5{
-    background-color: red;
-    width: 75%;
-    height: 100%;
-}
-.skill-6{
-    background-color: red;
-    width: 80%;
-    height: 100%;
-}
-
-
-span{
-    color: red;
-    font-size: 22px;
-}
-.prinfo{
-    color:red;
-    font-size: 19px;
-}
-
-.lng-main{
-    
-    background-color: aqua;
-    height: 6px;
-    border-radius: 10px;
-    
-    
-}
-.lng1{
-    width: 75%;
-    background-color:red;
-    border-radius: 10px;
-    height: 100%;
-}
-.lng2{
-    width: 95%;
-    background-color: red;
-    height: 100%;
-    border-radius: 10px;
-
-}
-.fmain{
-    background-color: rgb(34, 34, 60);
-    padding: 20px;
-}
-.fdiv{
+    text-decoration: none;
     color: white;
-    text-align: center;
-    padding: 5px;
+    align-items: center;
 }
-.inqr{
-    border: 1px solid red;
-    height: 400px;
-    display: flex;
-    padding: 20px;
-    line-height: 20px;
-
-    
+a{
+    text-decoration: none;
+    color: white;
 }
-.inqr1{
-    height: 80%;
-
-    width: 55%;
-    padding: 30px;
-    text-align: center;
-
-
+a:hover{
+    text-decoration: underline;
+    color: blue;
 }
-.inqr2{
-    height: 80%;
-    
-    width: 30%;
-    margin-left: 30px;
-    padding: 45px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    border-left: 1px solid;
-
-}
-input[type="text"],
-input[type="email"]
-{
-    width: 85%;
-    box-sizing: border-box;
-    height: 30px;
-    border-radius: 4px;
-    border: 1px solid;
-    border-color: red;
-    
-
-}
-textarea{
-    width: 85%;
-    height: 140px;
-    border-color: red;
-}
-#formbutton{
-    width: 85%;
-}
-.intouch{
-  
-    line-height: 23px;
-    padding: 5px 10px 5px 30px;
-
-}
-
-
